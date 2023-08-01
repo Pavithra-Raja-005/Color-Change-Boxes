@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Table</title>
+   <link rel="stylesheet" href="day3.css">
+    <style>
+        .a{
+    position: absolute;
+    left: 250px;
+    top: 80px;
+}
+table,tr,td{
+  
+    border: 5px solid;
+    padding: 40px 70px ;
+    width: 100px;
+    height: 100%;
+}
+
+#a1{
+    background-color: #03d4d4;
+}
+#a1:hover{
+    background-color:#fd5c63;
+}
+#a2{
+   background-color: aqua;
+}    
+#a2:hover{
+    background-color:#E3263663;
+}
+#a3{
+    background-color: aquamarine;
+}  
+#a3:hover{
+    background-color:#C60C30;
+}
+#b1{
+    background-color: #72f0f0; 
+}
+#b1:hover{
+    background-color:#E31837;
+}
+#b2{
+    background-color:#238bf3;
+}  
+#b2:hover{
+    background-color:#FF009038;
+}
+#b3{
+    background-color: #6CB4EE;
+}
+#b3:hover{
+    background-color:#E0115F;
+}
+#c1{
+    background-color: #2ab3f3d3;
+}
+#c1:hover{
+    background-color:#FF0090;
+}
+#d1{
+    background-color: #00CED1;
+}
+#d1:hover{
+    background-color:#C71585;
+}
+#d2{
+    background-color: #ADD8E6;
+}
+#d2:hover{
+    background-color:#F2003C;
+}
+#d3{
+    background-color: #87CEFA;
+}
+#d3:hover{
+    background-color:#C40233;
+}
+.a:hover{
+    box-shadow: 10px 10px 5px black;
+}
+    </style>
+</head>
+
+<body>
+    <div class="a">
+        <table>
+            <tr>
+                <td id="a1">a1</td>
+                <td id="a2">a2</td>
+                <td id="a3" colspan="2">a3</td>
+                      
+            </tr>
+            
+            <tr>
+                <td id="b1">b1</td>
+                <td id="b2" rowspan="2">b2</td>
+                <td id="b3" rowspan="2" colspan="2">b3</td>
+               
+            </tr> 
+            <tr>
+                <td id="c1" rowcolspan="2">c1</td>            
+               
+            </tr>
+            <tr>
+                <td id="d1" colspan="2">d1</td>
+                <td id="d2">d2</td>
+                <td id="d3">d3</td>
+                           
+            </tr>
+        </table>
+
+    </div>
+    </body>
+</html>
